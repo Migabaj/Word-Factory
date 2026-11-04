@@ -18,7 +18,7 @@ from typing import Sequence
 
 import pandas as pd
 import torch
-from transformer_lens import utils
+from transformer_lens import utilities as utils
 from transformer_lens.patching import (
     generic_activation_patch,
     layer_pos_patch_setter,
