@@ -5,7 +5,7 @@ from __future__ import annotations
 from typing import Sequence
 
 import torch
-from transformer_lens import utils
+from transformer_lens import utilities as utils
 
 
 def get_canonicity_layer_idx(model) -> int:
